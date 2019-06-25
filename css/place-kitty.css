@@ -21,7 +21,7 @@ img[alt="Kitty 2"]{
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
 
-#box img[alt="Kitty 3"] {
+#box img[alt="kitty 3"] {
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -30,7 +30,7 @@ img[alt="Kitty 2"]{
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
 
-div + img[alt="Kitty 4"] {
+div + img[alt="kitty 4"] {
   position: absolute;
   z-index: 4;
   top: 260px;
